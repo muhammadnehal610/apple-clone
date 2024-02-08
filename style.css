@@ -1,0 +1,97 @@
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+}
+.nav{
+  background-color: rgba(0, 0, 0, 0.719);
+  height: 40px;
+  
+  position: sticky;
+  top: 10px;
+  width: 100%;
+
+  
+}
+.nav-items {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.logo {
+    height: 20px;
+    width: 40px;
+}
+
+.search {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+.nav ul{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(241, 232, 232);
+}
+
+
+.section{
+  position: relative;
+}
+.title{
+  position: absolute;
+}
+.text-container{
+  position: relative;
+text-align: center;
+}
+.text-container img{
+  background-size: 300px;
+  width: 100%;
+}
+
+}
+.text{
+  position: absolute;
+bottom: 50px;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 50px;
+text-transform: capitalize;
+line-height: 1;
+}
+.welcome{
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%,-50%);
+  font-size: 24px;
+  line-height: 1;
+}
+.links{
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%,-50%);
+  
+  
+}
+.links a{
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+
+}
